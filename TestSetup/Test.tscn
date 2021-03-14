@@ -8,6 +8,7 @@
 
 [node name="3D world root" type="Spatial" parent="."]
 script = ExtResource( 3 )
+threshold = 1000.0
 
 [node name="BigWorld" parent="3D world root" instance=ExtResource( 1 )]
 
