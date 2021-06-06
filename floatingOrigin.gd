@@ -8,7 +8,7 @@ onready var camera : Camera = get_viewport().get_camera()
 
 # Function to contain origin shift logic
 func shift_origin() -> void:
-	# Shit everything by the offset of the camera's position
+	# Shift everything by the offset of the camera's position
 	global_transform.origin -= camera.global_transform.origin
 	print("World shifted to " + str(global_transform.origin))
 
